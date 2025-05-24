@@ -1,0 +1,52 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: monospace;
+  
+}
+
+.mailbox {
+  width: 500px;
+  margin: 0 auto;
+  }
+
+.incoming{
+  font-weight: bolder;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+
+
+.label {
+  margin-right: 5px;
+}
+
+.box {
+  margin-top: 20px;
+  padding: 5px;
+  overflow-y: auto;
+}
+
+.house{
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.house-ascii {
+  display: none;
+  white-space: pre-wrap;
+  color: #000000;
+}
+
+.enter-wrapper:hover .house-ascii {
+  display: block;
+}
+
+
+

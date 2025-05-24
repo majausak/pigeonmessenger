@@ -1,0 +1,403 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: monospace;
+    overflow-x: hidden;
+    
+  }
+ 
+  .main-text{
+    padding-left: 120px;
+    padding-right: 120px;
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+
+/* pigeon */
+.pigeon-full{
+  position: fixed;
+   white-space: pre;
+   margin-top: -48px;
+   padding: 10px;
+  
+}
+
+.toggle-pigeon {
+  display: none;
+  
+}
+
+.pigeon-toggle {
+  cursor: pointer;
+  user-select: text;
+
+}
+
+.pigeon-default {
+  position: fixed;
+  padding-left: 10px;
+}
+
+.pigeon-full {
+  display: none;
+}
+
+.toggle-pigeon:checked + .pigeon-toggle .pigeon-default {
+  display: none;
+}
+
+.toggle-pigeon:checked + .pigeon-toggle .pigeon-full {
+  display: inline;
+}
+
+
+/* headers */
+
+.mailbox {
+margin-bottom: 10px;
+
+}
+
+
+.incoming{
+font-weight: bolder;
+}
+
+
+.header {
+display: flex;
+justify-content: space-between;
+margin-bottom: 5px;
+font-weight: bolder;
+}
+
+  
+  
+.label {
+margin-right: 5px;
+font-weight: bolder;
+}
+  
+.box {
+margin-top: 20px;
+margin-left: 60px;
+padding: 5px;
+   
+}
+  
+
+/* replies */
+.reply-label{
+  font-weight: bolder;
+}  
+
+.reply-label:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}  
+
+
+.reply-box {
+ padding: 10px;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+
+
+.reply-content {
+  display: none;
+
+}
+.subj{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.reply-text {
+  padding: 10px;
+   margin-left: 60px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+.toggle-checkbox:checked + .reply-label + .reply-content {
+  display: block;
+}
+
+/* jan */
+    .jan-label{
+      font-weight: bolder;
+    }  
+
+    .jan-label:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }  
+
+
+    .jan-text {
+    padding: 10px;
+    }
+
+    .toggle-checkbox-jan {
+      display: none;
+    }
+
+
+
+    .jan-content {
+      display: none;
+
+    }
+
+
+    .toggle-checkbox-jan:checked + .jan-label + .jan-content {
+      display: block;
+    }
+
+
+
+
+/* cherry */
+    .toggle-checkbox-cherry {
+      display: none;
+    }
+
+    .cherry-label{
+      font-weight: bolder;
+    }  
+
+    .cherry-label:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }  
+
+
+    .cherry-content {
+      display: none;
+    }
+    .cherry-text {
+    padding: 10px;
+    white-space: pre;
+    }
+    .toggle-checkbox-cherry:checked + .cherry-label + .cherry-content {
+      display: block;
+    }
+
+
+/* break */
+.break1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.break2{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.toggle-break {
+  display: none;
+  
+}
+
+.break-toggle {
+  cursor: pointer;
+  user-select: text;
+
+}
+
+.break-default {
+  display: inline;
+}
+
+.break-full {
+  display: none;
+}
+
+.toggle-break:checked + .break-toggle .break-default {
+  display: none;
+}
+
+.toggle-break:checked + .break-toggle .break-full {
+  display: inline;
+}
+
+
+
+
+/* path */
+.path-label:hover {
+  cursor: pointer;
+}  
+
+
+.path-box {
+ white-space: pre;
+ margin-top: -40px;
+ margin-left: -25px;
+}
+
+.toggle-checkbox-path {
+  display: none;
+}
+
+
+
+.path-content {
+  display: none;
+  margin-top: -150px;
+ 
+
+}
+
+
+
+.toggle-checkbox-path:checked + .path-label + .path-content {
+  display: block;
+}
+
+
+.toggle-checkbox-path2 {
+  display: none;
+}
+
+
+.path2-label:hover {
+  cursor: pointer;
+}
+
+.path2-content {
+  display: none;
+   margin-top: -150px;
+ 
+}
+
+
+
+
+.toggle-checkbox-path2:checked + .path2-label + .path2-content {
+  display: block;
+}
+
+
+.toggle-checkbox-path3 {
+  display: none;
+}
+
+
+.path3-label:hover {
+  cursor: pointer;
+}
+
+
+.path3-content {
+  display: none;
+   margin-top: -130px;
+ 
+}
+
+
+.toggle-checkbox-path3:checked + .path3-label + .path3-content {
+  display: block;
+}
+
+
+.toggle-checkbox-path4 {
+  display: none;
+}
+
+
+.path4-label:hover {
+  cursor: pointer;
+}
+
+
+.path4-content {
+  display: none;
+   margin-top: -130px;
+ 
+}
+
+
+.toggle-checkbox-path4:checked + .path4-label + .path4-content {
+  display: block;
+}
+
+
+.toggle-checkbox-path5 {
+  display: none;
+}
+
+
+.path5-label:hover {
+  cursor: pointer;
+}
+
+
+.path5-content {
+  display: none;
+   margin-top: -120px;
+   margin-bottom: -100px;
+ 
+}
+
+
+.toggle-checkbox-path5:checked + .path5-label + .path5-content {
+  display: block;
+}
+
+
+
+
+
+
+
+/* manifesto */
+ .manifesto .title{
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+.manifesto .toggle-label {
+  cursor: pointer;
+  font-weight: bolder;
+  user-select: text;
+  display: inline;
+}
+
+
+.manifesto .toggle-check {
+  display: none;
+}
+
+
+.manifesto .toggle-default {
+  display: inline;
+}
+
+
+.manifesto .toggle-full {
+  display: none;
+  font-weight: 100;
+}
+
+
+.manifesto .toggle-check:checked + .toggle-label .toggle-default {
+  display: none;
+}
+
+.manifesto .toggle-check:checked + .toggle-label .toggle-full {
+  display: inline;
+}
